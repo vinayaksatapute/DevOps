@@ -5,8 +5,7 @@ const config = require('config')
 console.log(config);
 
 app.get('/', (req, res) => {
-  res.send('CICD App V8.0!')
-  res.send('CICD App Direct Edit V7.0!')
+  res.send('CICD App V1.1!')
 })
 
 app.get('/status', (req, res) => {
